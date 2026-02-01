@@ -19,4 +19,4 @@ API_URL="https://kubernetes.default.svc"
 read secrets
 ```bash
 curl --cacert $CACERT --header "Authorization: Bearer $TOKEN" -X GET $API_URL/api/v1/namespaces/todoapp/secrets
-```git
+```
